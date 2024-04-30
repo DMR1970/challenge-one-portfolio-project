@@ -1,9 +1,65 @@
-.title {
+section.title {
+    width: 100%;
+    padding: 20px;
+}
+
+.title__div {
     display: flex;
-    
+    justify-content: start;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .title__profile {
-    width: 50%;
+    height: 98px;
+    aspect-ratio: 1 / 1;
+  }
 
+@media (min-width: 1024px) {
+    section.title {
+        width: 85%;
+        margin: 0 auto;
+        padding: 60px 0;
+    }
 }
+
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title__profile {
+    height: 360px;
+}
+
+.title__container {
+    width: 65%;
+  }
+
+.title__bio {
+    font-size: 3.2rem;
+  }
+
+  .title__subsection {
+    font-size: 2.2rem;
+  }
+
+  .title__network__item a {
+    padding: 4px 8px;
+  }
+
+  .title__network__item a:hover {
+    background-color: var(--cor-de-btn);
+    color: var(--cor-de-fundo);
+    transition: all 500ms ease-in-out;
+  }

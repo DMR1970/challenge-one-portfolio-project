@@ -5,6 +5,7 @@ en las secciones señaladas */
 coloque nas sessões indicadas*/
 @import url("styles/reset.css");
 @import url("styles/header.css");
+@import url("styles/profile.css");
 
 
 :root{
@@ -21,6 +22,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    overflow: hidden;
     /*overflow: hidden;*/
 }
 
