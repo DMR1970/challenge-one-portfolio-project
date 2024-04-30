@@ -6,7 +6,6 @@ section.title {
 .title__div {
     display: flex;
     justify-content: start;
-    align-content: flex-start;
     align-items: flex-start;
     flex-flow: column wrap;
     gap: 20px;
@@ -23,16 +22,44 @@ section.title {
     aspect-ratio: 1 / 1;
   }
 
+  .title__bio {
+    text-wrap: pretty;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  
+  .title__subsection {
+    text-wrap: pretty;
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+  
+  .title__network {
+    height: 16px;
+    display: flex;
+    font-weight: bold;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .title__network__item {
+    font-size: 1.2rem;
+  }
+  
+  .title__network__item img {
+    height: 100%;
+  }
+
 @media (min-width: 1024px) {
     section.title {
         width: 85%;
         margin: 0 auto;
-        padding: 60px 0;
-    }
+        padding: 55px 0;
+    }   
 }
 
 .title__div {
-    display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
@@ -43,7 +70,7 @@ section.title {
 }
 
 .title__container {
-    width: 65%;
+    width: 75%;
   }
 
 .title__bio {
