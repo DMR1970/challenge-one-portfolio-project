@@ -20,12 +20,10 @@ section.title {
     border-radius: 50%;
 }
 .title__bio {
-    text-wrap: pretty;
     font-size: 2.2rem;
     font-weight: bold;
 }
 .title__subsection {
-    text-wrap: pretty;
     font-size: 1.6rem;
     font-weight: 300;
 }  
@@ -43,6 +41,10 @@ section.title {
 }
 
 @media (min-width: 768px){
+    section.title {
+        width: 90%;
+        padding: 40px 20px;
+    }
     .title__div {
       flex-direction: row-reverse;
       align-items: center;
@@ -56,6 +58,9 @@ section.title {
     }
     .title__container {
     width: 70%;
+    }
+    .title__bio {
+        font-size: 2.5rem;
     }
     .title__network {
         gap: 32px;
