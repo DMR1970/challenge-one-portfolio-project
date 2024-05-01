@@ -1,49 +1,92 @@
 section.title {
     width: 100%;
-    padding: 20px;
-}
+    padding: 16px;
+} 
 .title__div {
     display: flex;
     justify-content: start;
-    align-items: start;
-    flex-flow: column;
-    gap: 30px;
-}
-.title__profile {
-    height: 175px;
-    padding-top: 25px;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    gap: 16px;
 }
 .title__container {
-    width: 100%;
+    display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.title__bio{
-    word-wrap: normal;
-    font-size: 2.4rem;
+.title__profile {
+    height: 98px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+.title__bio {
+    text-wrap: pretty;
+    font-size: 2.2rem;
     font-weight: bold;
-    padding-bottom: 20px;
 }
 .title__subsection {
-    font-size: 1.1rem;
-    font-weight: 200;
-    padding-bottom: 20px;
-}
+    text-wrap: pretty;
+    font-size: 1.6rem;
+    font-weight: 300;
+}  
 .title__network {
+    height: 16px;
     display: flex;
     font-weight: bold;
-    gap: 20px;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
 }
 .title__network__item {
     font-size: 1rem;
-    font-weight: 700;
+    white-space: nowrap;
 }
 
-@media (min-width: 1024px){
-    section.title {
-        width: 100%;
+@media (min-width: 768px){
+    .title__div {
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .title__profile {
+    height: 175px;
+    position: relative;
+    right: 0;
+    top: 0;
+    }
+    .title__container {
+    width: 70%;
+    }
+    .title__network {
+        gap: 32px;
     }
 }
-.title__div {
-    flex-wrap: wrap-reverse;
+@media (min-width: 1425px){
+    section.title {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+    .title__profile {
+    height: 368px;
+    }
+    .title__container {
+        width: 65%;
+    }
+    .title__bio {
+        font-size: 3.2rem;
+    }
+    .title__subsection {
+        font-size: 2.2rem;
+    }
+    .title__network__item a {
+        padding: 4px 8px;
+    }
+    .title__network__item a:hover {
+        background-color: var(--cor-de-btn);
+        color: var(--cor-de-fundo);
+        transition: all 500ms ease-in-out;
+    }
 }
+
+  

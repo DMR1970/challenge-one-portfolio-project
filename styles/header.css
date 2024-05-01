@@ -27,34 +27,29 @@ section.menu {
         margin: 0 auto; /* Corrección en el valor del margen */
         padding: 25px;
     }
-
     .menu__list {
         display: flex; /* Mostrar el menu en pantallas grandes */
         flex-grow: 0;
         gap: 20px;
         font-size: 1rem;
     }
-}
-
-.menu__list .menu__list__item a{
+    .menu__list .menu__list__item a{
     padding: 8px 12px;
     border-radius: 4px;
     border-bottom: 2px solid transparent;
-}
-
-.menu__list .menu__list__item a:hover {
+    }
+    .menu__list .menu__list__item a:hover {
     background-color: var(--cor-de-btn);
     color: var(--background-cor);
     border-bottom: 2px solid black;
     transition: all 500ms ease-in;
-}
-
-.menu__list .menu__list__item:last-child {
+    }
+    .menu__list .menu__list__item:last-child {
     font-weight: bold;
-}
-
-.menu__list__item__contato {
+    }
+    .menu__list__item__contato {
     display: none;
+    }
 }
 
 
