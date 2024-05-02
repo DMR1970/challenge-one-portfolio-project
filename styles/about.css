@@ -1,0 +1,32 @@
+section.about {
+    background-color: var(--cor-de-about);
+    width: 100%;
+    padding: 20px;
+}
+.about__container {
+    display: flex;
+    justify-content: start;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.about__title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.about__container img{
+    width: 140px;
+    height: auto;
+    padding-top: 10px;
+}
+@media (min-width: 1425px){
+    section.about {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 100px;
+    }
+    .about__paragraph {
+    font-size: 1.rem;
+    font-weight: 300;
+    }
+}
