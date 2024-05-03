@@ -11,3 +11,18 @@ section.skills {
     font-weight: bold;
     padding-top: 10px;
 }
+.skills__line {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 30px;
+}
+.skills__box {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+    height: 118px;
+    padding: 16px;
+}
