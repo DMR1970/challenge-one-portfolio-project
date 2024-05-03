@@ -7,6 +7,9 @@ section.skills {
     gap: 20px;
 }
 .skills__title {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
     font-size: 2rem;
     font-weight: bold;
     padding-top: 10px;
@@ -16,12 +19,12 @@ section.skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px 30px;
+    gap: 30px 15px;
 }
 .skills__box {
-    width: 100%;
+    width: 45%;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     background-color: white;
     height: 118px;
     padding: 16px;
