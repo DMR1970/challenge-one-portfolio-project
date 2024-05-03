@@ -1,0 +1,13 @@
+section.skills {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.skills__title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
