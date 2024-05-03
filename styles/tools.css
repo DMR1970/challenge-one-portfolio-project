@@ -1,4 +1,4 @@
-section.skills {
+section.tools {
     width: 100%;
     padding: 20px;
     display: flex;
@@ -6,7 +6,7 @@ section.skills {
     align-items: center;
     gap: 20px;
 }
-.skills__title {
+.tools__title {
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -14,14 +14,14 @@ section.skills {
     font-weight: bold;
     padding-top: 10px;
 }
-.skills__line {
+.tools__line {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px 25px;
 }
-.skills__box {
+.tools__box {
     width: 45%;
     display: flex;
     align-items: flex-start;
@@ -30,25 +30,25 @@ section.skills {
     height: 120px;
     padding: 12px;
 }
-.skills__name {
+.tools__name {
     font-size: 1rem;
     font-weight: bold;
     margin-top: 14px;
 }
 @media (min-width: 1425px) {
-    section.skills {
+    section.tools {
       width: 85%;
       margin: 0 auto;
       padding: 60px 0;
     }
-    .skills__title {
+    .tools__title {
         width: 100%;
         display: flex;
         justify-content: center;
         font-size: 2rem;
         font-weight: bold;
     }
-    .skills__box {
+    .tools__box {
         width: 10%;
         height: 170px;
     }

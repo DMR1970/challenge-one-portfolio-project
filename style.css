@@ -8,7 +8,7 @@ coloque nas sessões indicadas*/
 @import url("styles/profile.css");
 @import url("styles/about.css");
 @import url("styles/skills.css");
-
+@import url("styles/tools.css");
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
