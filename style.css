@@ -9,6 +9,7 @@ coloque nas sessões indicadas*/
 @import url("styles/about.css");
 @import url("styles/skills.css");
 @import url("styles/tools.css");
+@import url("styles/academic.css");
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
@@ -17,6 +18,7 @@ coloque nas sessões indicadas*/
    --cor-de-link: #2D2D2D;
    --cor-de-about: #e2eafc;
    --cor-de-skillbox: #ccddd3;
+   --cor-de-academic: #e2eafc;
 }
 
 body {

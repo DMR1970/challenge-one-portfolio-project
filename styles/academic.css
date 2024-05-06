@@ -1,0 +1,9 @@
+section.academic {
+    width: 100%;
+    background-color: var(--cor-de-academic);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
