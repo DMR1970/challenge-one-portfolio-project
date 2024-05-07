@@ -14,6 +14,7 @@ section.academic {
     font-size: 2rem;
     font-weight: bold;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 .academic__courses {
     display: flex;
@@ -35,6 +36,47 @@ section.academic {
     justify-content: center;
     align-items: center;
   }
-  .academic__courses__item__img img{
+  .academic__courses__item__img img {
     height: 90px;
+  }
+  .academic__courses__item__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 12px;
+  }
+  .academic__courses__item__subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 1425px) {
+    section.academic {
+      width: 100%;
+      margin: 0 auto;
+      padding: 50px 100px;
+    }
+    .academic__courses {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+    .academic__title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .academic__courses__item__title {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    .academic__courses__item__img img {
+        height: 150px;
+    }
+    .academic__courses__list li:first-child {
+        height: 250px;
+    }
   }
