@@ -13,3 +13,25 @@ section.experience {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.experience__box {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.experience__img {
+    width: 100%;
+    height: auto;
+}
+.experience__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+.experience__text {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.experience__description {
+    
+}
