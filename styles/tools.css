@@ -20,6 +20,7 @@ section.tools {
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px 25px;
+    margin-bottom: 40px;
 }
 .tools__box {
     width: 45%;
