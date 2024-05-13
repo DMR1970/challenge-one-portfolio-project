@@ -11,6 +11,8 @@ coloque nas sessões indicadas*/
 @import url("styles/tools.css");
 @import url("styles/academic.css");
 @import url("styles/experience.css");
+@import url("styles/contact.css");
+
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
