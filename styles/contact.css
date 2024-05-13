@@ -1,9 +1,12 @@
 section.formcontato {
-    width: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor-de-about);
     padding: 20px;
 }
 .formcontato__contacto {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,5 +21,8 @@ section.formcontato {
     width: 90%;
 }
 .formcontato__title {
-    
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
