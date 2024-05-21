@@ -1,0 +1,9 @@
+section.footer {
+    text-align: center;
+    background-color: var(--cor-de-footer);
+    padding: 25px;
+}
+
+.footer__rodape p {
+    color: white;
+}
