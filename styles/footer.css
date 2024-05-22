@@ -1,9 +1,13 @@
 section.footer {
     text-align: center;
-    background-color: var(--cor-de-footer);
-    padding: 25px;
+    background: url(/assets/BlueBG.jpg);
+    padding: 45px;
 }
 
 .footer__rodape p {
     color: white;
+}
+
+.footer__logo {
+    padding-bottom: 35px;
 }
